@@ -38,6 +38,29 @@ cd fileshare
 pip install PyQt5
 python main.py
 ```
+# How to generate an excutable:
+
+MAKE SURE PYINSTALLER IS INSTALLED if not, run the following command
+
+pip install pyinstaller
+
+## 🛠️ Generate an executable:
+
+pyinstaller --onefile --noconsole main.py 
+### important -
+
+--noconsole to not display terminal while running gui
+
+The executable will be located in the dist folder.
+
+## Troubleshooting
+Dependency Issues:
+
+❗ If you encounter missing modules, manually install them using pip install <module-name>.
+Permission Errors:
+
+🔐 Run the command prompt or terminal as administrator.
+
 
 ## 🚀 How to Use
 
