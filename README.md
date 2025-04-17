@@ -39,6 +39,18 @@ pip install PyQt5
 python main.py
 ```
 
+# Execution Steps 
+1. Run the main script:
+Execute the following command from the project directory:
+```
+python main.py 
+```
+2. How to generate an executable:
+```
+pip install pyinstaller
+python -m PyInstaller --onefile --noconsole main.py
+```
+
 ## 🚀 How to Use
 
 ## 📨 Sending a File
