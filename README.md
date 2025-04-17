@@ -1,7 +1,7 @@
 # FileShare
 # Overview 
 
-> This project allows a **sender** to send files to **multiple receivers simultaneously** over a network using **WebSockets**.
+> This project allows a **sender** to send files to **multiple receivers simultaneously** over same network using **WebSockets**.
 
 ## 🛠️ Technologies & Libraries Used
 
@@ -35,6 +35,7 @@ Before running the project, make sure you have the following installed on your m
 ```
 git clone https://github.com/dewani12/fileshare.git
 cd fileshare
+pip install PyQt5
 python main.py
 ```
 
